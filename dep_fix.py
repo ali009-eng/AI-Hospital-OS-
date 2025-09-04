@@ -2,6 +2,7 @@
 # 🚨 SAGEMAKER LLAMA TRAINING - DEPENDENCY FIX
 # ===========================================
 
+# this is a test nothing has changed
 print("🚨 STARTING NUCLEAR RESET FOR SAGEMAKER...")
 print("="*60)
 
