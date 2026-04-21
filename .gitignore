@@ -56,3 +56,8 @@ docker-compose.override.yml
 .coverage
 htmlcov/
 docs/ 
+docs/  
+tests/  
+dep_fix.py  
+last_resort.py  
+buggy_code_examples.py 
