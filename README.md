@@ -1,24 +1,24 @@
-# 🏥 AI Hospital OS — AI Triage Assistant
+#  AI Hospital OS — AI Triage Assistant
 
 An intelligent, LLM-powered emergency department triage system built on the **MIMIC-IV-ED** dataset. It automates ESI (Emergency Severity Index) acuity prediction, surfaces similar historical cases via RAG, detects disease outbreaks through surveillance, and exposes everything through a real-time dashboard and REST API.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 🤖 **AI Triage** | Fine-tuned LLaMA-8B (`ali009eng/llama-8b-mimic-ed-triage`) for ESI-level prediction |
-| 🔍 **RAG System** | Retrieval-Augmented Generation using FAISS + Sentence Transformers for similar case lookup |
-| 🦠 **Surveillance** | Real-time outbreak & anomaly detection using TF-IDF clustering |
-| 📊 **Dashboard** | Live patient monitoring dashboard with auto-refresh |
-| 🔗 **LangChain Agent** | Conversational triage agent with tool use and LangSmith tracing |
-| 🔐 **Auth** | JWT-based authentication (optional) |
-| 🐳 **Docker** | Fully containerised with Docker Compose |
+|  **AI Triage** | Fine-tuned LLaMA-8B (`ali009eng/llama-8b-mimic-ed-triage`) for ESI-level prediction |
+|  **RAG System** | Retrieval-Augmented Generation using FAISS + Sentence Transformers for similar case lookup |
+|  **Surveillance** | Real-time outbreak & anomaly detection using TF-IDF clustering |
+|  **Dashboard** | Live patient monitoring dashboard with auto-refresh |
+|  **LangChain Agent** | Conversational triage agent with tool use and LangSmith tracing |
+|  **Auth** | JWT-based authentication (optional) |
+|  **Docker** | Fully containerised with Docker Compose |
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 AI-Hospital-OS/
@@ -45,7 +45,7 @@ AI-Hospital-OS/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -84,7 +84,7 @@ Open `http://localhost:8000` in your browser.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 All settings are controlled via environment variables. Copy `env.example` to `.env` and edit:
 
@@ -100,34 +100,6 @@ All settings are controlled via environment variables. Copy `env.example` to `.e
 | `ENABLE_AUTH` | `false` | Enable JWT authentication |
 
 ---
-
-## 🧠 ESI Triage Levels
-
-| Level | Severity | Description |
-|---|---|---|
-| **1** | 🔴 Immediate | Life-threatening |
-| **2** | 🟠 High Risk | Urgent |
-| **3** | 🟡 Medium | Stable but needs evaluation |
-| **4** | 🟢 Lower Medium | Stable with minor issues |
-| **5** | ⚪ Minor | Non-urgent |
-
----
-
-## 🧪 Testing
-
-```bash
-pytest tests/ -v
-```
-
----
-
-## 🐳 Docker Services
-
-```bash
-docker-compose up           # Start all services
-docker-compose down         # Stop all services
-docker-compose logs -f api  # Stream API logs
-```
 
 ---
 
