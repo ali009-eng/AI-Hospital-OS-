@@ -1,0 +1,3 @@
+# Place MIMIC-IV-ED CSV files here
+# Files: triage.csv, edstays.csv, vitalsign.csv, diagnosis.csv, medrecon.csv, pyxis.csv
+
