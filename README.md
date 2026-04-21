@@ -13,7 +13,7 @@ An intelligent, LLM-powered emergency department triage system built on the **MI
 |  **Surveillance** | Real-time outbreak & anomaly detection using TF-IDF clustering |
 |  **Dashboard** | Live patient monitoring dashboard with auto-refresh |
 |  **LangChain Agent** | Conversational triage agent with tool use and LangSmith tracing |
-|  **Auth** | JWT-based authentication (optional) |
+|  **Auth** | JWT-based authentication  |
 |  **Docker** | Fully containerised with Docker Compose |
 
 ---
