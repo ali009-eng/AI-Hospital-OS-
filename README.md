@@ -47,11 +47,6 @@ AI-Hospital-OS/
 
 ##  Quick Start
 
-### Prerequisites
-- Python 3.10+
-- Docker & Docker Compose (recommended)
-- MIMIC-IV-ED access (place CSVs in `data/mimic_iv_ed/`)
-
 ### 1. Clone & configure
 
 ```bash
@@ -67,18 +62,8 @@ cp env.example .env
 docker-compose up --build
 ```
 
-### 3. Run locally
 
-```bash
-pip install -r requirements.txt
-
-# Start the API
-uvicorn api.server:app --host 0.0.0.0 --port 8000 --reload
 ```
-
-### 4. Access the dashboard
-
-Open `http://localhost:8000` in your browser.
 
 ---
 
@@ -93,7 +78,7 @@ All settings are controlled via environment variables. Copy `env.example` to `.e
 | `API_PORT` | `8000` | API server port |
 | `MIMIC_DATA_PATH` | `./data/mimic_iv_ed` | Path to MIMIC-IV-ED CSVs |
 | `VECTOR_DB_PATH` | `./data/vector_db` | FAISS vector store path |
-| `LANGCHAIN_API_KEY` | — | LangSmith API key (optional) |
+| `LANGCHAIN_API_KEY` | — | LangSmith API key  |
 | `LANGCHAIN_TRACING` | `false` | Enable LangSmith tracing |
 | `ENABLE_AUTH` | `false` | Enable JWT authentication |
 
