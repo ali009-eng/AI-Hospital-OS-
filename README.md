@@ -1,6 +1,6 @@
 #  AI Hospital OS — AI Triage Assistant
 
-An intelligent, LLM-powered emergency department triage system built on the **MIMIC-IV-ED** dataset. It automates ESI (Emergency Severity Index) acuity prediction, surfaces similar historical cases via RAG, detects disease outbreaks through surveillance, and exposes everything through a real-time dashboard and REST API.
+An intelligent, LLM-powered emergency department triage system built on the **MIMIC-IV-ED** dataset. It automates ESI acuity prediction, surfaces similar historical cases via RAG, detects disease outbreaks through surveillance, and exposes everything through a real-time dashboard and REST API.
 
 ---
 
